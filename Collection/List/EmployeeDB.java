@@ -2,15 +2,15 @@ import java.util.ArrayList;
 
 public class EmployeeDB {
 
-    ArrayList<Employee> list = new ArrayList<>();
+    ArrayList<Employee4> list = new ArrayList<>();
 
-    public boolean addEmployee(Employee e) {
+    public boolean addEmployee(Employee4 e) {
         return list.add(e);
     }
 
     public boolean deleteEmployee(int empId) {
 
-        for(Employee e : list){
+        for(Employee4 e : list){
             if(e.empId == empId){
                 list.remove(e);
                 return true;
@@ -21,7 +21,7 @@ public class EmployeeDB {
 
     public String showPaySlip(int empId){
 
-        for(Employee e : list){
+        for(Employee4 e : list){
             if(e.empId == empId){
                 return "Pay Slip for " + e.empName + "\nSalary : " + e.salary;
             }
@@ -31,7 +31,7 @@ public class EmployeeDB {
 
     public void showAllEmployees(){
 
-        for(Employee e : list){
+        for(Employee3 e : list){
             e.getEmployeeDetails();
         }
     }
