@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms using Div Tags</title>
+</head>
+<body>
+
+    <h1>Forms</h1>
+
+    <!-- Visitor Information Form -->
+    <div>
+
+        <h2>Visitors Information</h2>
+
+        <form>
+
+            <table border="1" cellpadding="8">
+
+                <tr>
+                    <td>Email address</td>
+                    <td>
+                        <input type="text" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>User's interest</td>
+                    <td>
+                        <input type="checkbox" name="interest">
+                        Web for research or purchase
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Occupation</td>
+                    <td>
+                        <select name="occupation">
+                            <option>Student</option>
+                            <option>Employee</option>
+                            <option>Business</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Want us to send you junk emails?</td>
+                    <td>
+                        <input type="radio" name="junk" value="absolutely">
+                        Absolutely
+
+                        <input type="radio" name="junk" value="no">
+                        No way man
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+
+    <hr>
+
+
+    <!-- Online Registration Form -->
+    <div>
+
+        <h2>Online Registration</h2>
+
+        <form>
+
+            <table cellpadding="8">
+
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" name="username">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td>
+                        <input type="password" name="confirmPassword">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Name:</td>
+                    <td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male">
+                        Male
+
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <textarea name="address" rows="5" cols="25"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Profession:</td>
+                    <td>
+                        <select name="profession">
+                            <option>Student</option>
+                            <option>Engineer</option>
+                            <option>Teacher</option>
+                            <option>Doctor</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
