@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Border - Stretch</title>
+
+    <style>
+        .box {
+            width: 400px;
+            padding: 30px;
+            border: 30px solid transparent;
+
+            border-image-source: url("image.jpg");
+            border-image-slice: 30;
+            border-image-width: 30px;
+            border-image-repeat: stretch;
+
+            text-align: center;
+            font-size: 24px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+        Welcome to CSS World
+    </div>
+
+</body>
+</html>
