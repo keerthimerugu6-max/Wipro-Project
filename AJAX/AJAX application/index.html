@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>State-City Dropdown</title>
+    <script>
+        function loadCities() {
+            let state = document.getElementById("state").value;
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "CityServlet?state=" + state, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById("cities").innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <h2>Select State</h2>
+    <select id="state" onchange="loadCities()">
+        <option value="">--Select--</option>
+        <option value="AP">Andhra Pradesh</option>
+        <option value="KA">Karnataka</option>
+        <option value="MH">Maharashtra</option>
+    </select>
+    <div id="cities"></div>
+</body>
+</html>

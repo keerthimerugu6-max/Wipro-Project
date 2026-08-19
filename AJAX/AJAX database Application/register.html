@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Availability Check</title>
+    <script>
+        function checkEmail() {
+            let email = document.getElementById("email").value;
+            let status = document.getElementById("status");
+
+            // Regex validation
+            let regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$/;
+            if (!regex.test(email)) {
+                status.innerHTML = "Invalid Email Id";
+                return;
+            }
+
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "EmailCheckServlet?email=" + email, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    status.innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <h2>Register</h2>
+    Email: <input type="text" id="email" onblur="checkEmail()">
+    <span id="status"></span>
+</body>
+</html>
