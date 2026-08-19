@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Products SYSTEM "student2.dtd">
+
+<Products>
+
+    <Product>
+        <Code>QWZ5671</Code>
+        <Price>39.95</Price>
+        <Color>Red</Color>
+        <Color>Burgundy</Color>
+    </Product>
+
+    <Product>
+        <Code>RRX9856</Code>
+        <Price>42.50</Price>
+        <Color>Red</Color>
+        <Color>Navy</Color>
+        <Color>Burgundy</Color>
+        <Color>Black</Color>
+    </Product>
+
+</Products>

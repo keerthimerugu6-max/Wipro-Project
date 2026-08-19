@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mobileSales SYSTEM "mobileSales.dtd">
+
+<?xml-stylesheet type="text/xsl" href="mobileSales.xsl"?>
+
+<mobileSales>
+
+    <mobile>
+        <modelName>Galaxy S24</modelName>
+        <modelID>M101</modelID>
+        <brand>Samsung</brand>
+        <price>79999</price>
+        <color>Black</color>
+        <size>Normal</size>
+        <memory>256GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>15</noSold>
+        <storeName>store1</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>iPhone 15</modelName>
+        <modelID>M102</modelID>
+        <brand>Apple</brand>
+        <price>69999</price>
+        <color>Blue</color>
+        <size>Normal</size>
+        <memory>128GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>8</noSold>
+        <storeName>store1</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>OnePlus 12</modelName>
+        <modelID>M103</modelID>
+        <brand>OnePlus</brand>
+        <price>59999</price>
+        <color>Green</color>
+        <size>Normal</size>
+        <memory>256GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>12</noSold>
+        <storeName>store2</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Pixel 8</modelName>
+        <modelID>M104</modelID>
+        <brand>Google</brand>
+        <price>69999</price>
+        <color>White</color>
+        <size>Normal</size>
+        <memory>128GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>7</noSold>
+        <storeName>store2</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Redmi Note 13</modelName>
+        <modelID>M105</modelID>
+        <brand>Redmi</brand>
+        <price>24999</price>
+        <color>Blue</color>
+        <size>Micro</size>
+        <memory>128GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>18</noSold>
+        <storeName>store3</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Vivo V30</modelName>
+        <modelID>M106</modelID>
+        <brand>Vivo</brand>
+        <price>32999</price>
+        <color>Black</color>
+        <size>Normal</size>
+        <memory>256GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>10</noSold>
+        <storeName>store3</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Motorola Edge 50</modelName>
+        <modelID>M107</modelID>
+        <brand>Motorola</brand>
+        <price>35999</price>
+        <color>Green</color>
+        <size>Normal</size>
+        <memory>256GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>14</noSold>
+        <storeName>store1</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Realme 12 Pro</modelName>
+        <modelID>M108</modelID>
+        <brand>Realme</brand>
+        <price>29999</price>
+        <color>Gold</color>
+        <size>Micro</size>
+        <memory>128GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>6</noSold>
+        <storeName>store2</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Nothing Phone 2</modelName>
+        <modelID>M109</modelID>
+        <brand>Nothing</brand>
+        <price>44999</price>
+        <color>White</color>
+        <size>Normal</size>
+        <memory>256GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>11</noSold>
+        <storeName>store3</storeName>
+    </mobile>
+
+    <mobile>
+        <modelName>Nokia G42</modelName>
+        <modelID>M110</modelID>
+        <brand>Nokia</brand>
+        <price>19999</price>
+        <color>Blue</color>
+        <size>Micro</size>
+        <memory>128GB</memory>
+        <camera>Yes</camera>
+        <touchScreen>Yes</touchScreen>
+        <noSold>5</noSold>
+        <storeName>store1</storeName>
+    </mobile>
+
+</mobileSales>

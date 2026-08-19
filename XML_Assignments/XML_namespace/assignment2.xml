@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Products
+    xmlns:m="http://example.com/mobile"
+    xmlns:l="http://example.com/landline">
+
+    <m:Phone>
+        <m:Model>Moto E</m:Model>
+        <m:ID>123</m:ID>
+        <m:Processor>Qualcomm Snapdragon 200</m:Processor>
+        <m:Battery>2390 mAh</m:Battery>
+    </m:Phone>
+
+    <l:Phone>
+        <l:Model>Beetel M71 Landline</l:Model>
+        <l:ID>456</l:ID>
+        <l:Screen>LCD Screen</l:Screen>
+        <l:Feature>Yes</l:Feature>
+    </l:Phone>
+
+</Products>

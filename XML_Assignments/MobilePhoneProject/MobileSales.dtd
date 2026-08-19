@@ -1,0 +1,31 @@
+<!ELEMENT mobileSales (mobile*)>
+
+<!ELEMENT mobileSales (mobile*)>
+
+<!ELEMENT mobile (
+    modelName,
+    modelID,
+    brand,
+    price,
+    color,
+    size,
+    memory,
+    camera,
+    touchScreen,
+    noSold,
+    storeName
+)>
+
+<!ELEMENT modelName (#PCDATA)>
+<!ELEMENT modelID (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT memory (#PCDATA)>
+<!ELEMENT camera (#PCDATA)>
+<!ELEMENT touchScreen (#PCDATA)>
+<!ELEMENT noSold (#PCDATA)>
+
+<!ELEMENT storeName (#PCDATA)>

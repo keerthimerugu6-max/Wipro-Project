@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TVSCHEDULE [
+
+    <!ELEMENT TVSCHEDULE (CHANNEL+)>
+
+    <!ELEMENT CHANNEL (BANNER,DAY+)>
+
+    <!ELEMENT BANNER (#PCDATA)>
+
+    <!ELEMENT DAY (DATE,(HOLIDAY|PROGRAMSLOT+)+)>
+
+    <!ELEMENT HOLIDAY (#PCDATA)>
+
+    <!ELEMENT DATE (#PCDATA)>
+
+    <!ELEMENT PROGRAMSLOT (TIME,TITLE,DESCRIPTION?)>
+
+    <!ELEMENT TIME (#PCDATA)>
+
+    <!ELEMENT TITLE (#PCDATA)>
+
+    <!ELEMENT DESCRIPTION (#PCDATA)>
+
+    <!ATTLIST TVSCHEDULE
+        NAME CDATA #REQUIRED>
+
+    <!ATTLIST CHANNEL
+        CHAN CDATA #REQUIRED>
+
+    <!ATTLIST PROGRAMSLOT
+        VTR CDATA #IMPLIED>
+
+    <!ATTLIST TITLE
+        RATING CDATA #IMPLIED
+        LANGUAGE CDATA #IMPLIED>
+
+]>
+
+
+<TVSCHEDULE NAME="My TV Schedule">
+
+    <CHANNEL CHAN="Channel 1">
+
+        <BANNER>News and Entertainment</BANNER>
+
+        <DAY>
+
+            <DATE>Monday</DATE>
+
+            <PROGRAMSLOT VTR="Yes">
+
+                <TIME>09:00 AM</TIME>
+
+                <TITLE
+                    RATING="U"
+                    LANGUAGE="English">
+                    Morning News
+                </TITLE>
+
+                <DESCRIPTION>
+                    Morning news and current affairs.
+                </DESCRIPTION>
+
+            </PROGRAMSLOT>
+
+            <PROGRAMSLOT>
+
+                <TIME>06:00 PM</TIME>
+
+                <TITLE
+                    RATING="U"
+                    LANGUAGE="English">
+                    Evening Show
+                </TITLE>
+
+            </PROGRAMSLOT>
+
+        </DAY>
+
+
+        <DAY>
+
+            <DATE>Tuesday</DATE>
+
+            <HOLIDAY>Public Holiday</HOLIDAY>
+
+        </DAY>
+
+    </CHANNEL>
+
+
+    <CHANNEL CHAN="Channel 2">
+
+        <BANNER>Movies</BANNER>
+
+        <DAY>
+
+            <DATE>Wednesday</DATE>
+
+            <PROGRAMSLOT>
+
+                <TIME>08:00 PM</TIME>
+
+                <TITLE
+                    RATING="PG"
+                    LANGUAGE="English">
+                    Family Movie
+                </TITLE>
+
+                <DESCRIPTION>
+                    A family entertainment movie.
+                </DESCRIPTION>
+
+            </PROGRAMSLOT>
+
+        </DAY>
+
+    </CHANNEL>
+
+</TVSCHEDULE>
